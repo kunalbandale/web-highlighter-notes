@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Highlighter & Notes</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Web Highlighter & Notes</h1>
+            <div class="extension-toggle">
+                <label class="switch">
+                    <input type="checkbox" id="extensionToggle" checked>
+                    <span class="slider round"></span>
+                </label>
+                <span class="toggle-label">Extension Active</span>
+            </div>
+            <div class="actions">
+                <button id="exportPDF" class="btn">Export as PDF</button>
+                <button id="exportMD" class="btn">Export as Markdown</button>
+            </div>
+        </header>
+        
+        <div class="highlights-container">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="current">Current Page</button>
+                <button class="tab-btn" data-tab="all">All Highlights</button>
+            </div>
+            
+            <div id="currentPage" class="tab-content active">
+                <div id="currentHighlights" class="highlights-list">
+                    <!-- Highlights will be inserted here -->
+                </div>
+            </div>
+            
+            <div id="allHighlights" class="tab-content">
+                <div class="highlights-list">
+                    <!-- All highlights will be inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html> 

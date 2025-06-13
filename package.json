@@ -1,0 +1,11 @@
+{
+  "name": "web-highlighter-notes",
+  "version": "1.0.0",
+  "description": "Chrome extension for highlighting and taking notes on webpages",
+  "scripts": {
+    "generate-icons": "node scripts/generate-icons.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.32.1"
+  }
+} 
