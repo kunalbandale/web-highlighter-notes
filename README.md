@@ -133,8 +133,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📫 Contact
 
-- GitHub Issues: [Create an issue](https://github.com/yourusername/web-highlighter-notes/issues)
-- For general questions or discussions, please use GitHub Discussions
+- GitHub Issues: [Create an issue](https://github.com/kunalbandale/web-highlighter-notes/issues)
+- For general questions or discussions, please use [GitHub Discussions](https://github.com/kunalbandale/web-highlighter-notes/discussions)
 
 ---
 
